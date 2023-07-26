@@ -1,1 +1,357 @@
-/* место для вашего кода */
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 92px 50px;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1340px;
+    height: 109px;
+    color: #000;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-underline-position: under;
+    }
+
+.header__links-list{
+display: flex;
+gap: 32px;
+}
+
+.header__links-list-item{
+list-style: circle;
+text-decoration: underline;
+}
+
+.header__links-list-item_no-bullit{
+    list-style: none;
+}
+
+.header__link_no-underline{
+    text-decoration: none;
+}
+
+.header__link_active{
+    display: block;
+    height: 105px;
+    width: 148px;
+}
+
+/*указала как в задании 
+"Изображение не обязательно подгонять по размеру, если сделать ссылку блочной и задать размеры. В файле globals.css мы сделали все изображения размером в ширину родителя."
+но ширина блока в макете чуть больше, чем сам логотип вся шапка чуток поплыла :с*/
+
+.logo{
+transform: translateX(-50%);
+}
+
+.address{
+    font-style: normal;
+    line-height: 24.3px;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.cover{
+background-image: url(/ono_tebe_nado/images/cover.jpg);
+width: 1440px;
+height: 757px;
+background-size: cover;
+position: relative;
+}
+
+.cover__tittle{
+    padding-top: 165px;
+    padding-left: 50px;
+    color: #FFF;
+    font-family: Raleway;
+    font-size: 0px;
+    font-style: normal;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 100px;
+    position: relative;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 15px;
+    }
+    
+    .aligned-text{
+    line-height: 115%;
+    letter-spacing: 30px;
+    display: flex;
+    }
+    
+    .aligned-text_center{
+    line-height: 100%;
+    letter-spacing: 30px;
+    display: flex;
+    justify-self: center;
+    margin-right: 60px;
+    }
+
+    .aligned-text_right{
+    line-height: 100%;
+    letter-spacing: 30px;
+    display: flex;
+    justify-self: end;
+    }
+
+    .no-letter-spacing{
+    letter-spacing: 50px;
+    }
+
+   .letter-spacing-extended{
+    letter-spacing: 60px;
+   }
+
+.cover__description{
+position: relative;
+display: flex;
+justify-content: end;
+padding-bottom: 62px;
+z-index: 1;
+align-items: center;
+margin-top: 115px;
+}
+
+.cover__description-text{
+color: #FFF;
+font-family: Raleway;
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px;
+text-transform: uppercase;
+word-spacing: 18px;
+}
+
+.bet-button{
+color: #FFF;
+text-align: center;
+font-family: Raleway;
+font-size: 22px;
+text-transform: uppercase;
+border: 1px solid #FFF;
+padding: 12px 32px;
+background-color: transparent;
+margin-left: 78px;
+margin-right: 50px;
+}
+
+.lots{
+margin:180px 50px;
+}
+
+.lots__heading{
+font-size: 40px;
+font-weight: 700;
+line-height: normal;
+text-transform: uppercase;
+margin-left: 42px;
+margin-bottom: 27px;
+}
+    
+.lots__card-list{
+list-style: none;
+display: flex;
+gap: 25px;
+justify-content: center;
+flex-grow: 1;
+flex-wrap: wrap;
+}
+
+.card{
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+width: 430px;
+min-height: 450px;
+position: relative;
+}
+
+.card-link{
+    text-decoration: none;
+    width: 100%;
+}
+
+.card_tittle{
+padding-top: 50px;
+padding-left: 40px;
+padding-right: 40px;
+color: #FFF;
+font-family: Raleway;
+font-size: 22px;
+font-style: normal;
+font-weight: 700;
+text-decoration-line: underline;
+text-transform: uppercase;
+z-index: 1;
+}
+
+.card__text{
+padding-left: 40px;
+padding-right: 40px;
+padding-bottom: 50px;
+color: #FFF;
+font-family: Raleway;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 120%;
+z-index: 1;
+}
+    
+.card_type_film{
+background-image: url(/ono_tebe_nado/images/card-lot-01.jpg);
+}
+
+.card_type_book{
+background-image: url(/ono_tebe_nado/images/card-lot-02.jpg);
+}
+
+.card_type_picture{
+background-image: url(/ono_tebe_nado/images/card-lot-03.jpg);
+}
+    
+.card_type_book,
+.card_type_film,
+.card_type_picture{
+background-repeat: no-repeat;
+background-size: contain;
+}
+
+.overlay{
+position: absolute;
+z-index: 0;
+background-color: rgba(0, 0, 0, 0.6);
+width: 100%;
+height: 100%;
+}
+
+.lots__look-more-link{
+display: block;
+margin-top: 30px;
+margin-left: 40px;
+color: #000;
+font-family: Raleway;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.about{
+    width: 1340px;
+    height: 487px;
+    margin-left: 50px;
+    margin-right: 50px;
+display: grid;
+grid-template-columns: 430px auto;
+grid-template-rows: 450px auto;
+grid-column-gap: 25px;
+}
+
+.about__logo{
+    width: 240px;
+    height: 240px;
+    background-color: black;
+    border-radius: 50%;
+    display: flex;
+    margin-left: 95px;
+    align-items: center;
+    justify-content: center;
+}
+
+.about__logo-image{
+    width: 148px;
+    height: 114px;
+}
+
+.about__column{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.about__title{
+color: #000;
+font-family: Raleway;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: uppercase;
+margin-top: 100px;
+margin-bottom: 100px;
+}
+
+.about__text{
+color: #000;
+font-family: Raleway;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 23px;
+/*при значении normal pixel perfect говорил что вообще не нормал( */
+}
+
+.first_paragraph{
+    margin-bottom: 30px;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer{
+display: flex;
+justify-content: space-between;
+width: 1340px;
+height: 109px; ;
+margin-top: 180px;
+text-underline-position: under;
+color: #000;
+font-family: Raleway;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.footer__menu{
+    text-align: center;
+}
+
+.footer__menu-list{
+    list-style: none;
+}
+
+.footer__menu-link_active{
+    text-decoration: none;
+}
+
+.footer__social-list{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 240px;
+    height: 48px;
+}
+
+.footer__social-link{
+    width: 48px;
+}
