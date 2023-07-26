@@ -44,10 +44,6 @@ text-decoration: underline;
     width: 148px;
 }
 
-/*указала как в задании 
-"Изображение не обязательно подгонять по размеру, если сделать ссылку блочной и задать размеры. В файле globals.css мы сделали все изображения размером в ширину родителя."
-но ширина блока в макете чуть больше, чем сам логотип вся шапка чуток поплыла :с*/
-
 .logo{
 transform: translateX(-50%);
 }
@@ -304,7 +300,7 @@ font-size: 20px;
 font-style: normal;
 font-weight: 400;
 line-height: 23px;
-/*при значении normal pixel perfect говорил что вообще не нормал( */
+/*при значении normal pixel perfect говорил не нормал( */
 }
 
 .first_paragraph{
@@ -352,6 +348,6 @@ line-height: normal;
     height: 48px;
 }
 
-.footer__social-link{
+.footer__social-icon{
     width: 48px;
 }
