@@ -1,4 +1,4 @@
-header {
+.header {
     margin-top: 92px;
     margin-left: 50px ;
     margin-right: 50px;
@@ -6,7 +6,7 @@ header {
     align-items: center;
     justify-content: space-between;
     color: #000;
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -33,23 +33,14 @@ header {
 }
 
 .header__link_active {
-    display: block;
     height: 109px;
     width: 140px;
-    margin-right: 355px;
-    margin-left: 209px;
+    margin-right: 73px;
 }
 
 .address {
     font-style: normal;
     line-height: 24.3px;
-}
-
-main {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
 }
 
 .cover {
@@ -64,7 +55,7 @@ main {
     padding-top: 165px;
     padding-left: 50px;
     color: #FFF;
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     font-size: 0px;
     font-style: normal;
     font-weight: 700;
@@ -117,7 +108,7 @@ main {
 
 .cover__description-text {
     color: #FFF;
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     font-size: 22px;
     font-style: normal;
     font-weight: 400;
@@ -129,7 +120,7 @@ main {
 .bet-button {
     color: #FFF;
     text-align: center;
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     font-size: 22px;
     text-transform: uppercase;
     border: 1px solid #FFF;
@@ -181,7 +172,7 @@ main {
     padding-left: 40px;
     padding-right: 40px;
     color: #FFF;
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     font-size: 22px;
     font-style: normal;
     font-weight: 700;
@@ -195,7 +186,7 @@ main {
     padding-right: 40px;
     padding-bottom: 50px;
     color: #FFF;
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
@@ -224,10 +215,7 @@ main {
 
 .overlay {
     position: absolute;
-    z-index: 0;
     background-color: rgba(0, 0, 0, 0.6);
-    width: 100%;
-    height: 100%;
     inset: 0;
 }
 
@@ -236,7 +224,7 @@ main {
     margin-top: 30px;
     margin-left: 40px;
     color: #000;
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
@@ -247,8 +235,8 @@ main {
     margin-left: 50px;
     margin-right: 50px;
     display: grid;
-    grid-template-columns: 430px auto;
-    grid-template-rows: 450px auto;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
     grid-column-gap: 27px;
 }
 
@@ -270,7 +258,7 @@ main {
 
 .about__title {
     color: #000;
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     font-size: 40px;
     font-style: normal;
     font-weight: 700;
@@ -278,28 +266,31 @@ main {
     text-transform: uppercase;
     margin-top: 100px;
     margin-bottom: 100px;
+    margin-left: 95px;
 }
 
 .about__text {
     display: grid;
     grid-template-rows: 1fr 1fr;
     color: #000;
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: 23px;
     gap:10px;
+    margin-left: 95px;
 }
 
 .footer {
-    margin-top: 215px;
+    margin-top: 180px;
     margin-left: 50px ;
     margin-right: 50px;
+    margin-bottom: 124px;
     display: flex;
     justify-content: space-between;
     color: #000;
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
