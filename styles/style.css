@@ -34,8 +34,8 @@
 
 .header__link_active {
     height: 109px;
-    width: 140px;
-    margin-right: 73px;
+    width: 135px;
+    margin-right: 140px;
 }
 
 .address {
@@ -286,7 +286,7 @@
     margin-top: 180px;
     margin-left: 50px ;
     margin-right: 50px;
-    margin-bottom: 124px;
+    margin-bottom: 90px;
     display: flex;
     justify-content: space-between;
     color: #000;
@@ -312,11 +312,9 @@
 
 .footer__social-list {
     list-style: none;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 240px;
-    height: 48px;
+    display:  grid;
+grid-template-columns: 1fr 1fr 1fr;
+gap: 50px;
 }
 
 .footer__social-icon {
